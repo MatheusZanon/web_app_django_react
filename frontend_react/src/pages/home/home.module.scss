@@ -1,0 +1,22 @@
+.Home {
+    .headerSection {
+      background-color: #005f73;
+      color: #d20404;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .welcomeSection, .aboutSection, .contactSection {
+      padding: 1rem;
+      margin: 1rem 0;
+  
+      h2 {
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        color: #555;
+      }
+    }
+  }

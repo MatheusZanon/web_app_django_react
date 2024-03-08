@@ -1,6 +1,13 @@
-## Aplicação Web usando React e Next.js E Django
+## Aplicação Web usando React + Vite E Django
 
-## Bibliotecas Externas:
-- Material UI 5.10.2
-- Emotion React 11.10.0
-- Emotion Styled 11.10.0
+## Bibliotecas Externas Frontend:
+- React
+- Vite
+- Sass
+
+
+## Bibliotecas Externas Backend:
+- Django
+- Django Rest Framework
+- Python Dotenv
+- Mysql Connector Python

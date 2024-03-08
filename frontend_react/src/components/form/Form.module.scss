@@ -1,0 +1,41 @@
+$form-padding: 5px;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-stack;
+
+  div {
+    margin-bottom: 15px;
+  }
+
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 300px;
+    padding: $form-padding 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken(#007bff, 10%);
+    }
+  }
+}
